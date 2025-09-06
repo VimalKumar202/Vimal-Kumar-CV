@@ -1,0 +1,1 @@
+Welcome to my portfolio! I'm Vimal Kumar, an aspiring Cybersecurity enthusiast, Developer, and Innovator currently pursuing a B.Tech in Information Technology. This portfolio showcases my key skills, academic background, certifications, and personal projects. It also highlights my extracurricular achievements, particularly in sports leadership.
