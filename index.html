@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vimal Kumar | Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Portfolio</div>
+
+        <!-- Hamburger -->
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#objective-profile">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#Beyond Academics">Beyond Academics</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Vimal Kumar: Driving Innovation</h1>
+        <p>Seeking opportunities to apply engineering, development, networking, frontend, and cybersecurity skills for
+            organisational success.</p>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="Vimal Kumar CV.pdf" style="color: white;" class="download-btn">Download CV</a>
+        </div>
+        <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/vimal-kumar-b69731253/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/VimalKumar202" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sections -->
+    <section id="objective-profile" class="content-section">
+        <h2>About Vimal Kumar</h2>
+        <h3>Objective & Academic Profile</h3>
+        <div class="objective-academic-container">
+
+            <div class="objective-box">
+                <h4>Objective</h4>
+                <p>
+                    I am looking for an opportunity where I can apply my learnings in engineering, development,
+                    Networking and Security, Cybersecurity and contribute to organizational success through hard work,
+                    innovation, and a team-oriented mindset.
+                </p>
+            </div>
+
+            <div class="academic-box">
+                <h4>Academic Profile</h4>
+                <p>
+                    1. B.Tech IT from RKGITM (Raj Kumar Goel Institute of Technology and Management) Ghaziabad.<br><br>
+                    2. HigherSecondary School from Shiksha International School Ghaziabad. Year of Passing: 2022.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>Skills & Technology</h2>
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h4>Programming</h4>
+                <p>HTML, CSS, JavaScript, PHP, Python, MySQL, C++, MongoDB </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">☁️</div>
+                <h4>Currently Learning</h4>
+                <p>Cloud (Google, AWS, Azure), Networking, Cybersecurity, MongoDB, DevOps</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">💾</div>
+                <h4>Automation & Version Control</h4>
+                <p>Git, GitHub</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🖥️</div>
+                <h4>Operating Systems</h4>
+                <p>Windows (Network config, MS Office) <br>Linux/Ubuntu (Installation, Package management)</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h4>Other Tools</h4>
+                <p>TeamViewer, Zoom, Google Apps, Cisco Packet Tracer, AWS for Website Hosting </p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="cert-section">
+        <h2>Certifications & Virtual Learning</h2>
+        <div class="cert-grid">
+
+            <div class="cert-column">
+                <h4>Certifications</h4>
+                <ul>
+                    <li onclick="showCert('cloud.jpg')" style="cursor:pointer">Cloud Networking Components (IBM Skills
+                        Build, 2024)</li>
+                    <li onclick="showCert('GenAI.jpg')" style="cursor:pointer">GenAI Powered Data Analytics (TATA, 2025)
+                    </li>
+                    <li onclick="showCert('cyber.jpg')" style="cursor:pointer">Cyber Job Simulation (Deloitte, 2025)
+                    </li>
+                    <li onclick="showCert('Decoding data.jpg')" style="cursor:pointer">Decoding Data: Insights and
+                        Impact (CSRBOX, 2025)</li>
+                    <li onclick="showCert('AI.jpg')" style="cursor:pointer">Intro. to Artificial Intelligence (Great
+                        Learning, 2023)</li>
+                    <li onclick="showCert('Excel.jpg')" style="cursor:pointer">ChatGPT for Excel (Great Learning, 2023)
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cert-column">
+                <h4>Virtual Learning</h4>
+                <p onclick="showCert('Intership c.PNG')" style="cursor:pointer; color:black;">
+                    <strong>Cybersecurity Virtual Internship</strong> | EduSkills<br>
+                    <em>Dec 2022 – Feb 2023</em><br>
+                    Gained practical knowledge in network security, cyber threat mitigation, and cyber frauds.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Key Areas of Interest -->
+    <section class="interests-section">
+        <div class="interests-container">
+            <h2>Key Areas of Interest</h2>
+            <div class="interest-grid">
+                <div class="interest-item"><i class="fas fa-shield-alt"></i><span>Cybersecurity</span></div>
+                <div class="interest-item"><i class="fas fa-network-wired"></i><span>Networking</span></div>
+                <div class="interest-item"><i class="fas fa-screwdriver-wrench"></i><span>DevOps</span></div>
+                <div class="interest-item"><i class="fas fa-cloud"></i><span>Public Clouds</span></div>
+                <div class="interest-item"><i class="fas fa-cloud"></i><span>web Developer</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project" class="projects-section">
+        <h2>Featured Projects</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="Web">Web</button>
+            <button class="filter-btn" data-filter="game">Games</button>
+            <button class="filter-btn" data-filter="freelance">Freelance</button>
+            <button class="filter-btn" data-filter="Networking">Networking</button>
+        </div>
+
+        <div class="project-cards">
+            <!-- Project 1 -->
+            <div class="project-card" data-category="Web">
+                <img src="1.PNG" alt="Currency Exchange Project" class="project-img"
+                    onclick="showProjectImage('1.PNG')">
+                <h3>Currency-Exchange</h3>
+                <p>A simple and interactive web application that allows users to convert currency rates in real-time
+                    with country flags using the FreeCurrencyAPI.</p>
+                <p><strong>Tech Stacks:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://github.com/VimalKumar202/Currency-Exchange.git" target="_blank"
+                    class="github-link">GitHub Link</a> <br>
+                <a href="https://currency-exchange12.netlify.app/" target="_blank" class="github-link">Visit website</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-category="Web">
+                <img src="4.PNG" alt="Fitness Tracker" class="project-img" onclick="showProjectImage('4.PNG')">
+                <h3>Fitness Tracker Website</h3>
+                <p>A static site to help users track fitness progress, highlighting the importance of fitness with
+                    simple metrics and UI.</p>
+                <p><strong>Tech Stacks:</strong> HTML, CSS</p>
+                <a href="https://github.com/VimalKumar202/Fitness-tracker-website.git" target="_blank"
+                    class="github-link">GitHub Link</a> <br>
+                <a href="https://fitness-tracker-website20.netlify.app/" target="_blank" class="github-link">Visit
+                    website</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-category="game">
+                <img src="5.PNG" alt="Think Guess Game" class="project-img" onclick="showProjectImage('5.PNG')">
+                <h3>Think-Guess-Game</h3>
+                <p>A fun guessing game where you have to think smartly and guess the hidden number with helpful clues
+                    along the way.</p>
+                <p><strong>Tech Stacks:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://github.com/VimalKumar202/Think-Guess-Game.git" target="_blank"
+                    class="github-link">GitHub Link</a> <br>
+                <a href="https://think-guess-game.netlify.app" target="_blank" class="github-link">Visit website</a>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card" data-category="Web">
+                <img src="Capture8.PNG" alt="Portfolio Website" class="project-img"
+                    onclick="showProjectImage('Capture8.PNG')">
+                <h3>Portfolio Website</h3>
+                <p>Welcome to my portfolio! I'm Vimal Kumar, an aspiring Cybersecurity enthusiast, Developer, and
+                    Innovator.</p>
+                <p><strong>Tech Stacks:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://github.com/VimalKumar202/Vimal-kumar-Portfolio.git" target="_blank"
+                    class="github-link">GitHub Link</a> <br>
+                <a href="https://silver-brioche-1d5882.netlify.app/" target="_blank" class="github-link">Visit
+                    website</a>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card" data-category="Web">
+                <img src="y.PNG" alt="Phishing Detection" class="project-img" onclick="showProjectImage('y.PNG')">
+                <h3>Phishing Detection Project</h3>
+                <p>Developed a machine learning-based web application to identify phishing websites by examining URL
+                    patterns and extracting clever features.</p>
+                <p><strong>Tech Stacks:</strong> Python, Streamlit, Scikit-learn, Pandas, Regex, WHOIS, Requests,
+                    Joblib.</p>
+                <a href="https://github.com/VimalKumar202/Phishing-Detection.git" target="_blank"
+                    class="github-link">GitHub Link</a>
+            </div>
+
+            <!-- Freelancing Project 1 -->
+            <div class="project-card" data-category="freelance">
+                <img src="Up.PNG" alt="Freelance Project 1" class="project-img" onclick="showProjectImage('Up.PNG')">
+                <h3>Freelancing Project 1 : Uplinkbharat</h3>
+                <p>Developed a professional business website for a client with responsive design with smooth animations.
+                </p>
+                <p><strong>Tech Stacks:</strong> HTML, CSS, JavaScript, MySql, PHP</p>
+                <br>
+                <a href="https://uplinkbharat.com/" target="_blank" class="github-link">Visit website</a>
+            </div>
+
+            <!-- Freelancing Project 2 -->
+            <div class="project-card" data-category="freelance">
+                <img src="Mi.PNG" alt="Freelance Project 2" class="project-img" onclick="showProjectImage('Mi.PNG')">
+                <h3>Freelancing Project 2 : MIBU</h3>
+                <p>Created a dynamic e-commerce site.</p>
+                <p><strong>Tech Stacks:</strong> HTML, CSS, JavaScript, MySql, PHP</p>
+                <br>
+                <a href="https://mibu.co.in/" target="_blank" class="github-link">Visit website</a>
+            </div>
+            <!-- Networking Project 1 -->
+            <div class="project-card" data-category="Networking">
+                <img src="End to end.jpg" alt="End to End Network Project" class="project-img"
+                    onclick="showProjectImage('End to end.jpg')">
+                <h3>End-to-End Network Configuration</h3>
+                <p>Designed and configured a complete enterprise-level network for a company with MPLS as the primary
+                    link and P2P as a backup. Configured routers, switches, and end devices ensuring redundancy and
+                    proper IP addressing.</p>
+                <p><strong>Tech Stacks:</strong> Cisco Packet Tracer, Routers, Switches, Networking Protocols</p>
+                <a href="https://github.com/VimalKumar202/End-to-End-network-project" target="_blank"
+                    class="github-link">GitHub Link</a>
+                <br>
+                <!-- Button to view full diagram -->
+                <button class="diagram-btn" onclick="showProjectImage('End to end.jpg')">View Diagram</button>
+            </div>
+
+            <!-- Networking Project 2 -->
+           <div class="project-card" data-category="Networking">
+                <img src="Networl.jpg" alt="End to End Network Project" class="project-img"
+                    onclick="showProjectImage('Networl.jpg')">
+                <h3>End-to-End Network Flow: From Bank Branch to Central Data</h3>
+                <p>This is a network architecture diagram showing how a Bank Branch securely connects to Central Data using MPLS, Cloud, and the Internet. It illustrates traffic flow, devices involved, and security layers..</p>
+                <p><strong>Tech Stacks:</strong> Cisco Packet Tracer, Routers, Switches, Networking Protocols, Firewall , network Load Balancer, Cloud </p>
+                <a href="https://github.com/VimalKumar202/-End-to-End-Network-Flow-From-Bank-Branch-to-Central-Data" target="_blank"
+                    class="github-link">GitHub Link</a>
+                <br>
+                <!-- Button to view full diagram -->
+                <button class="diagram-btn" onclick="showProjectImage('Networl.jpg')">View Diagram</button>
+            </div>
+
+
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Beyond Academics -->
+    <section id="Beyond Academics" class="attributes-section">
+        <h2>Personal Attributes</h2>
+        <div class="attributes-container">
+            <div class="attribute">Team Management<br>Collaborator</div>
+            <div class="attribute">Effective Communicator</div>
+            <div class="attribute">Quick Learner</div>
+            <div class="attribute long">Strategic Planner</div>
+            <div class="attribute long">Innovative Thinker</div>
+        </div>
+
+        <section class="achievements-section">
+            <div class="achievements-box">
+                <h2>Achievements & Extra-Curricular</h2>
+                <div class="achievement-columns">
+                    <div class="column">
+                        <h4>Sports Achievements</h4>
+                        <ul>
+                            <li>Captain - College Volleyball Team (Winners 2022, 2023; Runner Up 2024)</li>
+                            <li>Bronze Medalist - School Athletics (400m Long Race, 2015)</li>
+                            <li>Winner - College Football Tournament (2024)</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>Organisational Activities</h4>
+                        <ul>
+                            <li>Organised Annual Sports Fest at College (2024), managing logistics and sponsorship.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Connect with Vimal</h2>
+        <div class="contact-container">
+
+            <div class="contact-details">
+                <h3>Contact Details</h3>
+                <p><i class="fas fa-phone"></i> Phone: +91 9719143662</p>
+                <p><i class="fas fa-envelope"></i> Email: <a
+                        href="mailto:mail02vimal@gmail.com">mail02vimal@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: G-310, Uninav Heights, Rajnagar Extension, Ghaziabad
+                    201017</p>
+                <p><i class="fas fa-flag"></i> Nationality: Indian</p>
+                <p><i class="fas fa-language"></i> Language Known: English & Hindi</p>
+            </div>
+
+            <div class="online-presence">
+                <h3>Online Presence</h3>
+                <p><i class="fab fa-linkedin"></i> LinkedIn: <a
+                        href="https://www.linkedin.com/in/vimal-kumar-b69731253/" target="_blank">Vimal Kumar</a></p>
+                <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/VimalKumar202"
+                        target="_blank">VimalKumar202</a></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Vimal Kumar. All rights reserved.</p>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certModal" class="modal" style="display:none;">
+        <span class="close" onclick="closeCert()">&times;</span>
+        <img id="certImage" src="" alt="Certificate">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
